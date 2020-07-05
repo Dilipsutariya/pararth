@@ -31,6 +31,17 @@
 </head>
 <script type="text/javascript" src="js/webslidemenu.js"></script>
 <body>
+    <div class="h-menu" style="display: block;">
+        <ul>
+                  <li><a href="#" class="active">HOME</a></li>
+                  <li><a href="#Service">SERVICES</a></li>
+                  <li><a href="#Company">COMPANY</a></li>
+                  <li><a href="#"> PORTFOLIO</a></li>
+                  
+                  <li><a href="#"> CAREER</a></li>
+                  <li><a href="#contactus"> CONTACT US</a></li>
+                </ul>
+    </div>
     <div class="zoom">
 <!-- Header Part start -->
     <header>
@@ -89,7 +100,7 @@
                 	<p class="slider-font">GET YOUR BUSINESS</p>
                     <p class="slider-font-2">FUTURE READY</p>
                     
-                    <a href="https://calendly.com/pararthtech/15min" class="c-btn-2">BOOK CONSULTATION NOW</a>
+                    <a href="https://calendly.com/pararthtech/15min?month=2020-07" target="_blank" class="c-btn-2">BOOK CONSULTATION NOW</a>
                 </div>
             </div>
         </div>
@@ -107,10 +118,10 @@
    </div>
     <div class="row">
     
-    	<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    	<div class="col-lg-6">
         	
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-120">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-120">
         <p class="font-27-white">We are a team of skilled developers who share a common passion that provides cutting adge engineering solutions.</p><br>
         <p class="font-27-white">Pararth Tech is in on a sellf-evolutionary path towards sustainable growth and it is attained by fierce dedication and technological innovation. We have also developed our own strategy to outdeliver any customer expectations with our refined IT sevices.</p>
         </div>
@@ -332,7 +343,7 @@
             <ul class="cards__container">
                 <li class="app-box">
                     <div class="app-content">
-                        <center><img src="images/modi.png"></center>
+                        <center><img src="images/modi.png" class="app-img"></center>
                         <p class="app-font-1">NARENDRA MODI</p>
                         <p class="app-font-2">Prime Minister, India</p>
                         <p class="app-font-3"><i>We only undertake the projects we are confident about.If we’ve taken it, it means we can do it. Once we committo your project, we work on it as</i></p>
@@ -340,7 +351,7 @@
                 </li>
                 <li class="app-box">
                     <div class="app-content">
-                        <center><img src="images/modi.png"></center>
+                        <center><img src="images/modi.png" class="app-img"></center>
                         <p class="app-font-1">NARENDRA MODI</p>
                         <p class="app-font-2">Prime Minister, India</p>
                         <p class="app-font-3"><i>We only undertake the projects we are confident about.If we’ve taken it, it means we can do it. Once we committo your project, we work on it as</i></p>
@@ -348,7 +359,7 @@
                 </li>
                 <li class="app-box">
                      <div class="app-content">
-                        <center><img src="images/modi.png"></center>
+                        <center><img src="images/modi.png" class="app-img"></center>
                         <p class="app-font-1">NARENDRA MODI</p>
                         <p class="app-font-2">Prime Minister, India</p>
                         <p class="app-font-3"><i>We only undertake the projects we are confident about.If we’ve taken it, it means we can do it. Once we committo your project, we work on it as</i></p>
@@ -356,7 +367,7 @@
                 </li>
                 <li class="app-box">
                      <div class="app-content">
-                        <center><img src="images/modi.png"></center>
+                        <center><img src="images/modi.png" class="app-img"></center>
                         <p class="app-font-1">NARENDRA MODI</p>
                         <p class="app-font-2">Prime Minister, India</p>
                         <p class="app-font-3"><i>We only undertake the projects we are confident about.If we’ve taken it, it means we can do it. Once we committo your project, we work on it as</i></p>
@@ -364,7 +375,7 @@
                 </li>
                 <li class="app-box">
                      <div class="app-content">
-                        <center><img src="images/modi.png"></center>
+                        <center><img src="images/modi.png" class="app-img"></center>
                         <p class="app-font-1">NARENDRA MODI</p>
                         <p class="app-font-2">Prime Minister, India</p>
                         <p class="app-font-3"><i>We only undertake the projects we are confident about.If we’ve taken it, it means we can do it. Once we committo your project, we work on it as</i></p>
@@ -372,7 +383,7 @@
                 </li>
                 <li class="app-box box--hide">
                      <div class="app-content">
-                        <center><img src="images/modi.png"></center>
+                        <center><img src="images/modi.png" class="app-img"></center>
                         <p class="app-font-1">NARENDRA MODI</p>
                         <p class="app-font-2">Prime Minister, India</p>
                         <p class="app-font-3"><i>We only undertake the projects we are confident about.If we’ve taken it, it means we can do it. Once we committo your project, we work on it as</i></p>
@@ -380,7 +391,7 @@
                 </li>
                 <li class="app-box box--hide">
                      <div class="app-content">
-                        <center><img src="images/modi.png"></center>
+                        <center><img src="images/modi.png" class="app-img"></center>
                         <p class="app-font-1">NARENDRA MODI</p>
                         <p class="app-font-2">Prime Minister, India</p>
                         <p class="app-font-3"><i>We only undertake the projects we are confident about.If we’ve taken it, it means we can do it. Once we committo your project, we work on it as</i></p>
@@ -508,12 +519,13 @@ deliver it all at once near the end. This means exceptional product at your end.
             slider.setup('masterslider', {
                 width: 1400,    // slider standard width
                 height: 625,   // slider standard height
-                space: 0,
+                space: 5,
                 speed: 45,
                 layout: 'fillwidth',
                 loop: true,
-                preload: 0,
+                preload: 1,
                 autoplay: true,
+
                 view: "parallaxMask"
             });
         })(jQuery);
@@ -533,7 +545,28 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 </script>
-
+<script type="text/javascript">
+  $(document).ready(function(){
+      if ($(window).scrollTop() >= 500) {
+     
+        $('.h-menu').css("display","block");
+    }
+    else {
+      
+         $('.h-menu').css("display","none");
+    } 
+    $(window).scroll(function(){
+      
+    if ($(window).scrollTop() >= 500) {
+     
+        $('.h-menu').css("display","block");
+    }
+    else {
+      
+         $('.h-menu').css("display","none");
+    }
+});});
+</script>
 
     <script type="text/javascript">
         (function ($) {
@@ -548,6 +581,7 @@ $('#return-to-top').click(function() {      // When arrow is clicked
                 preload: 0,
                 space: 0,
                 space: 50,
+                autoplay: false,
                 viewOptions: { centerSpace: 1.6 }
             });
             slider.control('arrows');
