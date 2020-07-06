@@ -406,7 +406,7 @@ font-size: 43px;
     border-radius: 10px;
     text-decoration: none;
     position: relative;
-    z-index: 999;
+    z-index: 99;
     }
     .contact-btn:hover
 {
@@ -851,6 +851,9 @@ font-size: 43px;
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .c-btn {
+    color: #666666 !important;
+}
 .right-text {
     margin-top: 45px;
     text-align: center;
@@ -928,6 +931,9 @@ font-size: 43px;
 
 
 @media (max-width: 575.98px) { 
+    .c-btn {
+    color: #666666 !important;
+}
 .h-menu{
     display: none !important;
  }
@@ -956,13 +962,13 @@ font-size: 43px;
     padding-bottom: 15px;
 }
 .why-us .why-us-circle {
-    max-width: 320px;
-    height: 320px;
+    max-width: 350px;
+    height: 350px;
     padding: 40px;
 
     }
     .cc-img {
-    width: 85%;
+    width: 95%;
 }
 .our-team {
     padding: 383px 0px 190px 0px;
@@ -984,8 +990,8 @@ font-size: 43px;
 }
 .app-box {
     /* margin: -1.5rem; */
-    width: 320px !important;
-    height: 320px !important;
+    width: 350px !important;
+    height: 350px !important;
 }
 .app-font-1 {
     font-size: 25px;
@@ -1025,14 +1031,14 @@ font-size: 43px;
     width: 300px !important;
 }
 .footer-contact .footer-contact-round {
-    max-width: 300px;
-    height: 300px; top: 350px;
+   max-width: 350px;
+    height: 350px; top: 350px;
     }
     .footer-contact .footer-contact-round{
-       padding: 60px 10px;
+      padding: 100px 10px;
     }
     .footer-contact .font-75-white{
-       font-size: 40px;     padding-bottom: 0px;
+       font-size: 45px;     padding-bottom: 0px;
     }
     .footer-contact .font-27-white{
         display: none;
@@ -1078,7 +1084,40 @@ footer .c-footer {
     text-align: center;
     /* text-align: center; */
 }
-
+.app-box:nth-child(1) {
+    left: 40% !important;
+    width: 280px !important;
+    height: 280px !important;
+}
+.app-box:nth-child(2) {
+    left: 20% !important;
+}
+.app-box:nth-child(2) .app-content img {
+    width: 50%;
+}
+.app-box:nth-child(4) {
+    left: -20% !important;
+}
+.app-box:nth-child(4) .app-content img {
+    width: 50%;
+}
+.app-font-3 {
+   
+    padding-top: 0px;
+}
+.app-font-1 {
+   
+    padding-top: 0px;
+   
+}
+.app-box {
+    /* margin: -1.5rem; */
+    padding: 0px 50px !important;
+    /* transition: 1s all; */
+}
+.app-box:nth-child(5) {
+    left: -40% !important;
+    }
 }
 
 

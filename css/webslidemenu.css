@@ -699,7 +699,7 @@
 		text-decoration: none;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		color: #ffffff;
+		color: #ffffff !important;
 	}
 	.wsmenu-list>li>a.active {
 		background-color: #cccccc;
