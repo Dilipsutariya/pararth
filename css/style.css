@@ -13,6 +13,14 @@ html {
 .zoom{
     zoom:80%;
 }
+.stick-header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding: 5px 0px;
+    background-color: #eaeaea;
+    z-index: 9999999;
+}
 /*Top to back arrow CSS Start*/
 #return-to-top {
     position: fixed;
@@ -568,7 +576,7 @@ font-size: 43px;
 
 
 
-@media (max-width: 1920px)  { 
+@media only screen and (max-width: 1920px)  { 
     .zoom {
         zoom: 100%;
     }
@@ -581,12 +589,12 @@ font-size: 43px;
     background-size: 100% 100%;
     }
 }
-@media (max-width: 1600px) {  }
-@media (max-width: 1400px) { 
+@media only screen and (max-width: 1600px) {  }
+@media only screen and (max-width: 1400px) { 
  .zoom {
         zoom: 80%;
     } }
-@media (max-width: 1200px) { 
+@media only screen and (max-width: 1200px) { 
     .c-btn-2 {
        
         padding: 20px 90px;
@@ -654,7 +662,7 @@ font-size: 43px;
 }
  }
 
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) { 
 .slider-font {
     font-size: 38px;
 }
@@ -798,10 +806,17 @@ font-size: 43px;
  }
 
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media only screen and (min-width: 768px) and (max-width: 991.98px) { 
 .right-text {
     margin-top: 110px;
     text-align: center;
+}
+.font-27-black {
+    font-size: 20px !important;
+    }
+    .why-us .why-us-circle {
+   
+    padding: 95px 150px !important;
 }
 .about {
     background-image: url(../images/about-bg.png);
@@ -825,6 +840,13 @@ font-size: 43px;
     max-width: 790px;
     height: 790px;
     padding: 31px 140px;
+}
+.app-font-1 {
+    font-size: 25px !important;
+}
+.app-font-3 {
+    font-size: 16px !important;
+    line-height: 20px !important;
 }
 .font-75-white {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -850,7 +872,7 @@ font-size: 43px;
 
 
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
     .c-btn {
     color: #666666 !important;
 }
@@ -930,7 +952,7 @@ font-size: 43px;
  }
 
 
-@media (max-width: 575.98px) { 
+@media only screen and (max-width: 575.98px) { 
     .c-btn {
     color: #666666 !important;
 }
@@ -958,7 +980,7 @@ font-size: 43px;
     }
     .font-65-black {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 50px;
+    font-size: 50px !important;
     padding-bottom: 15px;
 }
 .why-us .why-us-circle {
@@ -975,15 +997,10 @@ font-size: 43px;
     background-size: cover;
 }
 
-
     .why-us-circle .font-27-black {
     display: none;
 }
-.font-75-white {
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 58px;
-    padding-bottom: 25px;
-    }
+
     .ms-staff-carousel {
    
     padding-top: 45px;
@@ -992,34 +1009,33 @@ font-size: 43px;
     /* margin: -1.5rem; */
     width: 350px !important;
     height: 350px !important;
+     padding: 0px 50px !important;
 }
 .app-font-1 {
-    font-size: 25px;
-}
-.app-box {
-    /* margin: -1.5rem; */
+    font-size: 20px !important;
+    padding-top: 0px;
    
-    padding: 0px 45px !important;
-    /* transition: 1s all; */
 }
+
 .app-img {
     width: 50%;
 }
 .app-font-3 {
-    font-size: 14px;
+    font-size: 12px !important;
+     padding-top: 0px;
+     line-height: 15px !important;
 }
 
 .app-box:nth-child(2) {
-    left: 9%;
+    left: 20% !important;
     width: 320px !important;
     height: 320px !important;
     padding: 90px;
 }
-.app-box:nth-child(2) {
-    left: 19% !important;
-}
+
 .app-box:nth-child(4){
- left: -19% !important;
+     left: -20% !important;
+ 
  width: 320px !important;
     height: 320px !important;
     padding: 90px;
@@ -1037,9 +1053,16 @@ font-size: 43px;
     .footer-contact .footer-contact-round{
       padding: 100px 10px;
     }
-    .footer-contact .font-75-white{
-       font-size: 45px;     padding-bottom: 0px;
+     .font-75-white{
+       font-size: 30px;     padding-bottom: 0px;
+
+
+         font-family: 'Bai Jamjuree', sans-serif;
+    
     }
+    .app-font-2 {
+    font-size: 18px !important;
+}
     .footer-contact .font-27-white{
         display: none;
     }
@@ -1089,34 +1112,24 @@ footer .c-footer {
     width: 280px !important;
     height: 280px !important;
 }
-.app-box:nth-child(2) {
-    left: 20% !important;
-}
+
+
 .app-box:nth-child(2) .app-content img {
     width: 50%;
 }
-.app-box:nth-child(4) {
-    left: -20% !important;
-}
+
 .app-box:nth-child(4) .app-content img {
     width: 50%;
 }
-.app-font-3 {
-   
-    padding-top: 0px;
-}
-.app-font-1 {
-   
-    padding-top: 0px;
-   
-}
-.app-box {
-    /* margin: -1.5rem; */
-    padding: 0px 50px !important;
-    /* transition: 1s all; */
-}
+
+
 .app-box:nth-child(5) {
     left: -40% !important;
+    }
+    .font-gray-33{
+        font-size: 20px !important;
+    line-height: 25px;
+}
     }
 }
 

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Pararth Tech </title>
+<title>Index :: Pararth Tech </title>
 <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
 <!-- Bootstrap css and js Start -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -31,7 +31,7 @@
 </head>
 <script type="text/javascript" src="js/webslidemenu.js"></script>
 <body>
-    <div class="h-menu" style="display: block;">
+    <!-- <div class="h-menu" style="display: block;">
         <ul>
                   <li><a href="#" class="active">HOME</a></li>
                   <li><a href="#Service">SERVICES</a></li>
@@ -41,7 +41,7 @@
                   <li><a href="#"> CAREER</a></li>
                   <li><a href="#contactus"> CONTACT US</a></li>
                 </ul>
-    </div>
+    </div> -->
     <div class="zoom">
 <!-- Header Part start -->
     <header>
@@ -549,21 +549,22 @@ $('#return-to-top').click(function() {      // When arrow is clicked
   $(document).ready(function(){
       if ($(window).scrollTop() >= 500) {
      
-        $('.h-menu').css("display","block");
+        $('.header').addClass("stick-header");
     }
     else {
       
-         $('.h-menu').css("display","none");
+        $('.header').removeClass("stick-header");
     } 
     $(window).scroll(function(){
       
     if ($(window).scrollTop() >= 500) {
-     
+        $('.header').addClass("stick-header");
         $('.h-menu').css("display","block");
     }
     else {
       
          $('.h-menu').css("display","none");
+         $('.header').removeClass("stick-header");
     }
 });});
 </script>
