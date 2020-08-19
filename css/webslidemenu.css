@@ -633,7 +633,7 @@
 		white-space: nowrap !important;
 		padding-left: 15px !important;
     padding-right: 15px !important;
-    font-size: 20px;
+    font-size: 18px !important;
 	}
 	.megacollink {
 		width: 48%;
@@ -643,13 +643,12 @@
 		width: 48%;
 		margin: 1% 1%;
 	}
-}
-
-@media only screen and (min-width: 781px) and (max-width:1200px) {
 	.wsmenu-list li a .arrow:after {
 		display: none !important;
 	}
 }
+
+
 
 @media only screen and (min-width: 781px) {
 	.wsmenu-list li:hover>.wsmenu-submenu {
